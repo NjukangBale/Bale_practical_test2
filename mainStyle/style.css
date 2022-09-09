@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.huddleHeader {
+  background-image: url("images/bg-hero-desktop.svg");
+  background-repeat: "no repeat";
+}
+.huddleHeader .logo {
+  display: flex;
+  justify-content: space-between;
+}
+.huddleHeader .logo img {
+  margin: 40px;
+}
+.huddleHeader button {
+  width: 150px;
+  height: 35px;
+  margin: 40px 90px 0 0;
+  font-size: "18px";
+  border-radius: 10px;
+}
+.huddleHeader .huddleHeaderBanner {
+  display: flex;
+  justify-content: space-between;
+}
+.huddleHeader .huddleHeaderBanner .buildCommunity {
+  margin: 50px;
+}
+.huddleHeader .huddleHeaderBanner .buildCommunity h1 {
+  font-size: "[Poppins](https://fonts.google.com/specimen/Poppins)";
+  font-family: 600;
+  color: hsl(240deg, 2%, 11%);
+}
+.huddleHeader .huddleHeaderBanner .buildCommunity p {
+  font-size: "18px";
+  color: hsl(240deg, 2%, 11%);
+  line-height: 20px;
+  padding-top: 30px;
+}
+.huddleHeader .huddleHeaderBanner .buildCommunity button {
+  background-color: hsl(322deg, 100%, 66%);
+  width: 40%;
+  height: 40px;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 10px;
+  color: #fff;
+  font-size: "18px";
+}
+.huddleHeader .huddleHeaderBanner img {
+  width: 800px;
+  margin-right: 50px;
+}
+
+.container .sectionGrowTogether {
+  width: 90%;
+  margin: 90px auto;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: rgba(51, 50, 50, 0.26) 0px 2px 15px;
+}
+.container .sectionGrowTogether div {
+  padding: 10%;
+}
+.container .sectionGrowTogether div h3 {
+  color: #000;
+  font-family: "[Poppins](https://fonts.google.com/specimen/Poppins)";
+  font-size: 24px;
+}
+.container .sectionGrowTogether img {
+  width: 600px;
+}
+.container .sectionConversations {
+  width: 90%;
+  margin: 90px auto;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: rgba(51, 50, 50, 0.26) 0px 2px 15px;
+}
+.container .sectionConversations img {
+  width: 600px;
+}
+.container .sectionConversations div {
+  padding: 10%;
+}
+.container .sectionYourUsers {
+  width: 90%;
+  margin: 90px auto;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: rgba(51, 50, 50, 0.26) 0px 2px 15px;
+}
+.container div {
+  padding: 10% 0 0 5%;
+}
+.container img {
+  width: 600px;
+}
+.container .sectionReady {
+  width: 30%;
+  height: 200px;
+  margin: 60px auto 0;
+  text-align: center;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: rgba(51, 50, 50, 0.26) 0px 2px 15px;
+  position: relative;
+  z-index: 1;
+}
+.container .sectionReady h3 {
+  font-size: 24px;
+  font-family: "[Poppins](https://fonts.google.com/specimen/Poppins)";
+}
+.container .sectionReady button {
+  width: 270px;
+  height: 60px;
+  margin: 20px 0;
+  background: hsl(322deg, 100%, 66%);
+  border-radius: 30px;
+  color: #fff;
+  font-size: 19px;
+  font-family: "[Poppins](https://fonts.google.com/specimen/Poppins)";
+}
+
+.huddleFooter {
+  background-color: hsl(192deg, 100%, 9%);
+  padding: 5%;
+}
+.huddleFooter .footerHuddle {
+  display: flex;
+  justify-content: space-between;
+}
+.huddleFooter .footerHuddle .ftHuddle {
+  display: flex;
+}
+.huddleFooter .footercnt div {
+  margin: 20px;
+}
+.huddleFooter .footercnt div a {
+  font-family: "[Poppins](https://fonts.google.com/specimen/Poppins)";
+  font-size: "18px";
+  text-decoration: none;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */

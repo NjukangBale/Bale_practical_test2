@@ -1,0 +1,24 @@
+.huddleFooter{
+    background-color: $myFooter-color;
+    padding: 5%;
+    .footerHuddle{
+        display: flex;
+        justify-content: space-between;
+        .ftHuddle{
+            display: flex;
+        }
+    }
+    .footercnt{
+        div{
+            margin: 20px;
+            a{
+                font-family: $headingFont-family;
+                font-size: $myfont-size;
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+
+    }
+
+}

@@ -1,0 +1,63 @@
+.container{
+    .sectionGrowTogether{
+       @include display;
+        div{
+            padding: 10%;
+            h3{
+                color: #000;
+                font-family: $headingFont-family;
+                font-size: 24px;
+            }
+        }
+        img{
+            @include imgSize;
+        }
+    }
+
+    .sectionConversations{
+        @include display;
+        img{
+            @include imgSize
+        }
+        div{
+            padding: 10%;
+        }
+    }
+
+    .sectionYourUsers{
+        @include display;
+    }
+    div{
+        padding: 10% 0 0 5%;
+    }
+    img{
+        @include imgSize;
+    }
+
+    .sectionReady{
+        width: 30%;
+        height: 200px;
+        margin: 60px auto 0;
+        text-align: center;
+        padding: 50px;
+        border-radius: 10px;
+        box-shadow: rgba(51, 50, 50, 0.26) 0px 2px 15px ;
+        position: relative;
+        // top: 60px;
+        z-index: 1;
+        h3{
+            font-size: 24px;
+            font-family: $headingFont-family;
+        }
+        button{
+            width: 270px;
+            height: 60px;
+            margin: 20px 0;
+            background: $myPrimary-color;
+            border-radius: 30px;
+            color: #fff;
+            font-size: 19px;
+            font-family: $headingFont-family;
+        }
+    }
+}
